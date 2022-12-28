@@ -3,8 +3,8 @@ from libcpp.string cimport string
 
 ctypedef unsigned int uint
 
-#cdef extern from "instantAlg.cpp":
-cdef extern from "instantAlg_arxiv.cpp":
+cdef extern from "instantAlg.cpp":
+#cdef extern from "instantAlg_arxiv.cpp":
 	pass
 
 cdef extern from "instantAlg.h" namespace "propagation":
